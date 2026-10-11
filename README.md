@@ -1,6 +1,6 @@
 # EverStarine · 游戏档案
 
-个人游戏主页的独立公开源码备份，以《明日方舟：终末地》四号谷地重工业景观为视觉灵感。
+个人游戏主页的独立公开源码备份，采用深色重工业视觉与原创背景插画。
 
 - GitHub Pages：<https://everstarine.github.io/gaming-homepage/>
 - OpenAI Sites：<https://everstarine-valley-game.pretty-grass-6439.chatgpt.site/>
