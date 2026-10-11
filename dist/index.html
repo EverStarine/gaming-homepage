@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141716">
+  <meta name="description" content="EverStarine 的独立游戏据点。游戏账号、成就、影像与留言，在这里相遇。">
+  <meta property="og:title" content="EverStarine · 游戏档案">
+  <meta property="og:description" content="游戏之外，我的据点。">
+  <meta property="og:url" content="https://everstarine-valley-game.pretty-grass-6439.chatgpt.site/">
+  <title>EverStarine · 游戏档案</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至正文</a>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="EverStarine 游戏主页">
+      <span class="brand-symbol" aria-hidden="true">E<span>×</span></span>
+      <span class="brand-copy"><strong>EVERSTARINE</strong><small>PERSONAL GAMING ARCHIVE</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span>导航</span><i aria-hidden="true"></i></button>
+    <nav id="main-nav" aria-label="主导航">
+      <a href="#/" data-route="home"><span>00</span> 总览</a>
+      <a href="#/accounts" data-route="accounts"><span>01</span> 游戏账号</a>
+      <a href="#/achievements" data-route="achievements"><span>02</span> 成就展示</a>
+      <a href="#/gallery" data-route="gallery"><span>03</span> 影像档案</a>
+      <a href="#/guestbook" data-route="guestbook"><span>04</span> 留言墙</a>
+    </nav>
+    <span class="header-signal"><i></i> 个人据点</span>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer">
+    <div class="footer-top"><a class="footer-brand" href="#/">EVERSTARINE<span>游戏档案 / GAMING ARCHIVE</span></a><p>下一次冒险，见。</p><a href="#/about">关于本站 <span aria-hidden="true">↗</span></a></div>
+    <div class="footer-bottom"><span>© <span id="year">2026</span> EverStarine</span><span class="footer-note">个人游戏主页 · 独立站点</span><span class="reserved-link" aria-disabled="true">关联站点 <span>待开放 ↗</span></span></div>
+  </footer>
+  <dialog id="preview-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="eyebrow">MESSAGE PREVIEW</span><button type="button" class="close-dialog" aria-label="关闭预览">×</button></div><h2 id="dialog-title">留言预览</h2><div id="message-preview"></div><p class="dialog-note">这是一条预览，尚未发布到留言墙。</p><button type="button" class="button primary close-dialog">返回编辑 <span>↗</span></button></dialog>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>
